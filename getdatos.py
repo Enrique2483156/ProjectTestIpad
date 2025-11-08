@@ -11,7 +11,7 @@ contraseña = quote_plus(contraseña)
 # Reemplaza con tu cadena de conexión
 cadena_conexion = f"mongodb+srv://{usuario}:{contraseña}@testcluster.ljo9kqz.mongodb.net/CustomerDB?retryWrites=true&w=majority"
 
-
+#esre es un comentario de test para saber si hace upload commit.
 
 
 try:
