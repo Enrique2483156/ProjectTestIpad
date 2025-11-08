@@ -12,6 +12,8 @@ contraseña = quote_plus(contraseña)
 cadena_conexion = f"mongodb+srv://{usuario}:{contraseña}@testcluster.ljo9kqz.mongodb.net/CustomerDB?retryWrites=true&w=majority"
 
 
+
+
 try:
     cliente = MongoClient(cadena_conexion, tls=True, tlsAllowInvalidCertificates=True)
 
