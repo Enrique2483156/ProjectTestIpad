@@ -2,6 +2,7 @@ from pymongo import MongoClient
 from urllib.parse import quote_plus
 
 
+
 usuario = "Sergioenriqueatencio"
 contraseña = "developer@123"
 
